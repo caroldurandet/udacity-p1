@@ -1,0 +1,89 @@
+* {
+    font-family: 'Poiret One', cursive;
+    color: #ffd6be;
+}
+body {
+    background-color: #fff;
+}
+h1 {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 54px;
+}
+h2{
+    color:#990000;
+    font-family: 'Permanent Marker', cursive;
+    padding-left: 20px;
+    margin-top: 40px;
+}
+h3 {
+    font-size: 20px; 
+    margin-top: 0;
+    text-transform: uppercase;
+}
+.label {
+    text-transform: uppercase;
+    font-size: 25px;
+    text-align: center;
+    padding-top: 10px;
+    color: #990000;
+}
+.grid {
+    margin: 0 auto;
+    max-width: 960px;
+    width: 100%;
+}
+header {
+    background: url('../images/leather.jpg');
+    background-size: 100% auto;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.logo {
+    margin: 20px 0;
+}
+.logo img {
+    border-radius: 165px;
+    margin: auto;
+}
+
+@media screen and (max-width: 440px) {
+    header {
+        background-size: auto 100%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .logo img {
+        width: 150px;
+    }
+    h1 {
+        font-size: 40px;
+    }
+    h3 {
+        font-size: 15px;
+    }
+    .label {
+        margin-bottom: 30px;
+    }
+}
+
+@media screen and (min-width: 441px) and (max-width: 500px) {
+    header {
+        background-size: 100% auto;
+    }
+}
+
+@media screen and (min-width: 501px) and (max-width: 620px) {
+    header {
+        background-size: auto 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .label {
+        margin-bottom: 40px;
+    }
+    h2 {
+        text-align: center;
+    }
+}
