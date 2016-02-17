@@ -92,6 +92,10 @@ header {
     border: 0;
 }
 
+.nav>li>a {
+    padding: 10px;
+}
+
 .nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
     border: 0;
 }
@@ -100,17 +104,14 @@ header {
     color: #990000;
     text-align: center;
     padding: 40px 0;
-    font-size: 18px;
     font-weight: bold;
 }
 
-@media (min-width: 768px){
-    .navbar-nav{
-        float:none;
-        margin: 0 auto;
-        display: table;
-        table-layout: fixed;
-    }
+.navbar-nav{
+    float:none;
+    margin: 0 auto;
+    display: table;
+    table-layout: fixed;
 }
 
 @media screen and (max-width: 440px) {
@@ -152,6 +153,7 @@ header {
 @media screen and (max-width: 768px) {
     .label {
         margin-bottom: 40px;
+        display: block;
     }
 
     h2 {
