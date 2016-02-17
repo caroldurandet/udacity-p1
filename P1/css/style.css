@@ -15,8 +15,8 @@ h1 {
 h2{
     color: #990000;
     font-family: "Permanent Marker", cursive;
-    padding-left: 20px;
-    margin-top: 40px;
+    text-align: center;
+    margin: 0;
 }
 
 h3 {
@@ -27,6 +27,12 @@ h3 {
 
 a {
     text-decoration: none;
+    color: #780000;
+}
+
+a:focus, a:hover {
+    text-decoration: none;
+    color: #990000;
 }
 
 .label {
@@ -41,11 +47,14 @@ a {
     margin: 0 auto;
 }
 
+.tab-grid {
+    margin-bottom: 20px;
+}
+
 header {
     background: url(../images/leather.jpg);
     background-size: 100% auto;
     text-align: center;
-    margin-bottom: 20px;
 }
 
 .logo {
@@ -55,6 +64,53 @@ header {
 .avatar {
     border-radius: 165px;
     margin: auto;
+}
+
+.navbar-default {
+    background-color: #ffd6be;
+    border: 0;
+    color: #990000;
+    font-size: 16px;
+}
+
+.menu-tab {
+    color: #990000;
+    font-family: "Permanent Marker", cursive;
+    font-size: 25px;
+}
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+    background-color: #ffc9a9;
+    border: 0;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    background-color: #feb68c;
+}
+
+.nav-tabs {
+    border: 0;
+}
+
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+    border: 0;
+}
+
+.nav-txt {
+    color: #990000;
+    text-align: center;
+    padding: 40px 0;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+@media (min-width: 768px){
+    .navbar-nav{
+        float:none;
+        margin: 0 auto;
+        display: table;
+        table-layout: fixed;
+    }
 }
 
 @media screen and (max-width: 440px) {

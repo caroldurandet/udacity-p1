@@ -29,21 +29,34 @@
     </header>
     <nav class="navbar navbar-default">
       <div class="container-fluid">
-        <div class="navbar-header">
-          <a class="navbar-brand" href="#">WebSiteName</a>
-        </div>
-        <ul class="nav nav-tabs">
+        <ul class="nav navbar-nav nav-tabs">
           <!--li class="active"><a href="#">Home</a></li-->
-          <li><a href="#home" data-toggle="tab">Page 1</a></li>
-          <li><a href="#profile" data-toggle="tab">Page 2</a></li>
-          <li><a href="#messages" data-toggle="tab">Page 3</a></li>
+          <li><a href="#work" data-toggle="tab"><p class="menu-tab">Work</p></a></li>
+          <li><a href="#awards" data-toggle="tab"><p class="menu-tab">Awards</p></a></li>
+          <li><a href="#contact" data-toggle="tab"><p class="menu-tab">Contact</p></a></li>
         </ul>
-
-
         <div class="tab-content">
-          <div role="tabpanel" class="tab-pane active" id="home">Home</div>
-          <div role="tabpanel" class="tab-pane" id="profile">Profile</div>
-          <div role="tabpanel" class="tab-pane" id="messages">Messages</div>
+          <div role="tabpanel" class="tab-pane tab-grid" id="work">
+            <nav class="row">
+              <div class="col-xs-12 col-sm-4"><a href="#"><img src="images/001.jpg" class="img-responsive" alt="Lost Ark"><p class="label">Lost Ark</p></a></div>
+              <div class="col-xs-12 col-sm-4"><a href="#"><img src="images/002.png" class="img-responsive" alt="Temple of Doom"><p class="label">Temple of doom</p></a></div>
+              <div class="col-xs-12 col-sm-4"><a href="#"><img src="images/003.png" class="img-responsive" alt="Last Crusade"><p class="label">Last Crusade</p></a></div>
+            </nav>
+          </div>
+          <div role="tabpanel" class="tab-pane tab-grid" id="awards">
+            <nav class="row">
+              <div class="col-xs-12 col-sm-4"><a href="#"><img src="images/award001.jpg" class="img-responsive" alt="Lost Ark"><p class="label">Cat lover</p></a></div>
+              <div class="col-xs-12 col-sm-4"><a href="#"><img src="images/award002.jpg" class="img-responsive" alt="Temple of Doom"><p class="label">Looking good in a suit</p></a></div>
+              <div class="col-xs-12 col-sm-4"><a href="#"><img src="images/award003.jpg" class="img-responsive" alt="Last Crusade"><p class="label">Space Exploits</p></a></div>
+            </nav>
+          </div>
+          <div role="tabpanel" class="tab-pane tab-grid" id="contact">
+            <nav class="row">
+              <div>
+                <p class="nav-txt">For more info email <a href="mailto:indiana@jon.es">indiana@jon.es</a> or call (55) 5555-5555.</p>
+              </div>
+            </nav>
+          </div>
         </div>
       </div>
     </nav>
@@ -51,14 +64,6 @@
     <div class="col-md-12 hero">
         <img src="images/hero01.jpg" class="img-responsive" alt="Indiana hates snakes, see?"></div>
     </div>
-    <div class="row">
-      <div class="col-md-12"><h2>Featured Work</h2></div>
-    </div>
-    <nav class="row">
-      <div class="col-xs-12 col-sm-4"><a href="#"><img src="images/001.jpg" class="img-responsive" alt="Lost Ark"><p class="label">Lost Ark</p></a></div>
-      <div class="col-xs-12 col-sm-4"><a href="#"><img src="images/002.png" class="img-responsive" alt="Temple of Doom"><p class="label">Temple of doom</p></a></div>
-      <div class="col-xs-12 col-sm-4"><a href="#"><img src="images/003.png" class="img-responsive" alt="Last Crusade"><p class="label">Last Crusade</p></a></div>
-    </nav>
   </div>
 </body>
 </html>
